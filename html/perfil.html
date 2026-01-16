@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfil del Usuario</title>
+    <link rel="stylesheet" href="../style/perfil.css">
+</head>
+<body>
+    <div class="header">
+        <h1>Perfil del Usuario</h1>
+        <button class="btn-volver" onclick="window.location.href='contactos.html'">Volver a contactos</button>
+    </div>
+
+    <div class="container">
+        <div class="perfil-card">
+            <div class="perfil-encabezado">
+                <div>
+                    <p class="etiqueta">Nombre completo</p>
+                    <h2 id="perfilNombre">-</h2>
+                    <p class="detalle" id="perfilCorreo">-</p>
+                </div>
+            </div>
+
+            <div class="perfil-seccion">
+                <h3>Datos personales</h3>
+                <ul class="lista-datos">
+                    <li><span>Usuario</span><span id="perfilUsuario">-</span></li>
+                    <li><span>Telefono</span><span id="perfilTelefono">-</span></li>
+                    <li><span>Ciudad</span><span id="perfilCiudad">-</span></li>
+                </ul>
+            </div>
+
+            <div class="perfil-seccion">
+                <h3>Datos de la cuenta</h3>
+                <ul class="lista-datos">
+                    <li><span>Plan</span><span id="cuentaPlan">-</span></li>
+                    <li><span>Contrasena</span><span id="cuentaContrasena">-</span></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <script src="../js/perfil.js"></script>
+</body>
+</html>
