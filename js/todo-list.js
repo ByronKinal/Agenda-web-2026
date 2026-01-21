@@ -50,9 +50,20 @@ function mostrar() {
         const div = document.createElement('div');
         div.className = `tarea-item ${tarea.prioridad} ${tarea.completada ? 'completada' : ''}`;
 
+        const info = document.createElement('div');
+        info.className = 'tarea-info';
+
         const texto = document.createElement('span');
         texto.className = 'tarea-texto';
         texto.textContent = tarea.texto;
+
+        const prioridad = document.createElement('div');
+        prioridad.className = `tarea-prioridad ${tarea.prioridad}`;
+        const textoProrid = tarea.prioridad.charAt(0).toUpperCase() + tarea.prioridad.slice(1);
+        prioridad.textContent = textoProrid;
+
+        info.appendChild(texto);
+        info.appendChild(prioridad);
 
         const botones = document.createElement('div');
         botones.className = 'tarea-botones';
@@ -68,7 +79,7 @@ function mostrar() {
         botones.appendChild(btnCompletar);
         botones.appendChild(btnEliminar);
 
-        div.appendChild(texto);
+        div.appendChild(info);
         div.appendChild(botones);
         lista.appendChild(div);
     });
