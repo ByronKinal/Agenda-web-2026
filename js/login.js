@@ -6,9 +6,9 @@ document.getElementById('loginForm').addEventListener('submit', e => {
     localStorage.setItem('contrasena', contrasena);
 
     const perfilUsuario = {
+        usuario: usuario,
         nombreCompleto: usuario,
         correo: `${usuario}@ejemplo.com`,
-        telefono: '555-0110',
         ciudad: 'Ciudad Central',
     };
 
