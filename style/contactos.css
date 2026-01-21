@@ -12,7 +12,7 @@ body {
 .header {
     background-color: #4CAF50;
     color: white;
-    padding: 20px;
+     padding: 1.25rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -20,29 +20,29 @@ body {
 
 .header-actions {
     display: flex;
-    gap: 10px;
+     gap: 0.625rem;
 }
 
 .header h1 {
-    font-size: 24px;
+     font-size: 1.5rem;
 }
 
 
 .container {
-    max-width: 800px;
-    margin: 30px auto;
-    padding: 0 20px;
+     max-width: 50rem;
+     margin: 1.875rem auto;
+     padding: 0 1.25rem;
 }
 
 .btn-agregar {
     background-color: #4CAF50;
     color: white;
-    padding: 12px 24px;
+     padding: 0.75rem 1.5rem;
     border: none;
-    border-radius: 5px;
-    font-size: 16px;
+     border-radius: 0.3125rem;
+     font-size: 1rem;
     cursor: pointer;
-    margin-bottom: 20px;
+     margin-bottom: 1.25rem;
 }
 
 .btn-agregar:hover {
@@ -52,41 +52,41 @@ body {
 .contactos-lista {
     display: flex;
     flex-direction: column;
-    gap: 15px;
+     gap: 0.9375rem;
 }
 
 .contacto-item {
     background-color: white;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+     padding: 1.25rem;
+     border-radius: 0.5rem;
+     box-shadow: 0 0.125rem 0.3125rem rgba(0, 0, 0, 0.1);
     cursor: pointer;
     transition: transform 0.2s, box-shadow 0.2s;
 }
 
 .contacto-item:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+     transform: translateY(-0.125rem);
+     box-shadow: 0 0.25rem 0.625rem rgba(0, 0, 0, 0.15);
 }
 
 .contacto-item h3 {
     color: #333;
-    margin-bottom: 8px;
+     margin-bottom: 0.5rem;
 }
 
 .contacto-item p {
     color: #666;
-    font-size: 14px;
-    margin: 4px 0;
+     font-size: 0.875rem;
+     margin: 0.25rem 0;
 }
 
 .btn-perfil {
     background-color: white;
     color: #4CAF50;
-    padding: 10px 16px;
+     padding: 0.625rem 1rem;
     border: none;
-    border-radius: 5px;
-    font-size: 14px;
+     border-radius: 0.3125rem;
+     font-size: 0.875rem;
     cursor: pointer;
     font-weight: 600;
 }

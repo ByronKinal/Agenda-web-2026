@@ -12,23 +12,23 @@ body {
 .header {
     background-color: #4CAF50;
     color: white;
-    padding: 20px;
+     padding: 1.25rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
 .header h1 {
-    font-size: 24px;
+     font-size: 1.5rem;
 }
 
 .container {
-    max-width: 600px;
-    margin: 30px auto;
-    padding: 30px;
+     max-width: 37.5rem;
+     margin: 1.875rem auto;
+     padding: 1.875rem;
     background-color: white;
-    border-radius: 8px;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+     border-radius: 0.5rem;
+     box-shadow: 0 0.125rem 0.5rem rgba(0, 0, 0, 0.1);
 }
 
 .formulario-contacto {
@@ -37,7 +37,7 @@ body {
 }
 
 .form-group {
-    margin-bottom: 20px;
+     margin-bottom: 1.25rem;
     display: flex;
     flex-direction: column;
 }
@@ -45,36 +45,36 @@ body {
 .form-group label {
     font-weight: bold;
     color: #333;
-    margin-bottom: 8px;
-    font-size: 14px;
+     margin-bottom: 0.5rem;
+     font-size: 0.875rem;
 }
 
 .form-group input {
-    padding: 10px;
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    font-size: 14px;
+     padding: 0.625rem;
+     border: 0.0625rem solid #ddd;
+     border-radius: 0.25rem;
+     font-size: 0.875rem;
     font-family: Arial, sans-serif;
 }
 
 .form-group input:focus {
     outline: none;
     border-color: #4CAF50;
-    box-shadow: 0 0 5px rgba(76, 175, 80, 0.3);
+     box-shadow: 0 0 0.3125rem rgba(76, 175, 80, 0.3);
 }
 
 .form-actions {
     display: flex;
-    gap: 10px;
-    margin-top: 20px;
+     gap: 0.625rem;
+     margin-top: 1.25rem;
 }
 
 .btn-guardar,
 .btn-cancelar {
-    padding: 12px 24px;
+     padding: 0.75rem 1.5rem;
     border: none;
-    border-radius: 5px;
-    font-size: 16px;
+     border-radius: 0.3125rem;
+     font-size: 1rem;
     cursor: pointer;
     font-weight: bold;
     flex: 1;
