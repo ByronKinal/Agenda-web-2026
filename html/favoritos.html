@@ -7,25 +7,27 @@
     <link rel="stylesheet" href="../style/contactos.css">
 </head>
 <body>
-    <div class="header">
+    <header class="header">
         <h1>Contactos Favoritos</h1>
-        <button class="btn-perfil" onclick="window.location.href='contactos.html'">Volver a contactos</button>
-    </div>
+        <nav>
+            <button class="btn-perfil" onclick="window.location.href='contactos.html'">Volver a contactos</button>
+        </nav>
+    </header>
 
-    <div class="container">
-        <div class="contactos-lista">
-            <div class="contacto-item" onclick="verContacto(1)">
+    <main class="container">
+        <section class="contactos-lista">
+            <article class="contacto-item" onclick="verContacto(1)">
                 <h3>Juan Pérez</h3>
                 <p>juan.perez@email.com</p>
                 <p>555-0101</p>
-            </div>
-            <div class="contacto-item" onclick="verContacto(2)">
+            </article>
+            <article class="contacto-item" onclick="verContacto(2)">
                 <h3>María García</h3>
                 <p>maria.garcia@email.com</p>
                 <p>555-0102</p>
-            </div>
-        </div>
-    </div>
+            </article>
+        </section>
+    </main>
 
     <script src="../js/contactos.js"></script>
 </body>

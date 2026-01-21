@@ -7,15 +7,15 @@
     <link rel="stylesheet" href="../style/todo-list.css">
 </head>
 <body>
-    <div class="header">
+    <header class="header">
         <h1>Mi Lista de Tareas</h1>
-        <div class="header-actions">
+        <nav class="header-actions">
             <button class="btn-perfil" onclick="window.location.href='contactos.html'">Volver a Contactos</button>
-        </div>
-    </div>
+        </nav>
+    </header>
 
-    <div class="container">
-        <div class="form-section">
+    <main class="container">
+        <section class="form-section">
             <input type="text" id="taskInput" placeholder="Nueva tarea..." class="task-input">
             <select id="prioritySelect" class="priority-select">
                 <option value="baja">Baja</option>
@@ -23,11 +23,11 @@
                 <option value="alta">Alta</option>
             </select>
             <button onclick="agregarTarea()">Agregar</button>
-        </div>
+        </section>
 
-        <div id="tareas-lista" class="tareas-lista">
-        </div>
-    </div>
+        <section id="tareas-lista" class="tareas-lista">
+        </section>
+    </main>
 
     <script src="../js/todo-list.js"></script>
 </body>
