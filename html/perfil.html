@@ -7,37 +7,39 @@
     <link rel="stylesheet" href="../style/perfil.css">
 </head>
 <body>
-    <div class="header">
+    <header class="header">
         <h1>Perfil del Usuario</h1>
-        <button class="btn-volver" onclick="window.location.href='contactos.html'">Volver a contactos</button>
-    </div>
+        <nav>
+            <button class="btn-volver" onclick="window.location.href='contactos.html'">Volver a contactos</button>
+        </nav>
+    </header>
 
-    <div class="container">
-        <div class="perfil-card">
-            <div class="perfil-encabezado">
+    <main class="container">
+        <article class="perfil-card">
+            <section class="perfil-encabezado">
                 <div>
                     <p class="etiqueta">Nombre completo</p>
                     <h2 id="perfilNombre">-</h2>
                     <p class="detalle" id="perfilCorreo">-</p>
                 </div>
-            </div>
+            </section>
 
-            <div class="perfil-seccion">
+            <section class="perfil-seccion">
                 <h3>Datos personales</h3>
                 <ul class="lista-datos">
                     <li><span>usuario</span><span id="perfilUsuario">-</span></li>
                     <li><span>Ciudad</span><span id="perfilCiudad">-</span></li>
                 </ul>
-            </div>
+            </section>
 
-            <div class="perfil-seccion">
+            <section class="perfil-seccion">
                 <h3>Datos de la cuenta</h3>
                 <ul class="lista-datos">
                     <li><span>Contrasena</span><span id="cuentaContrasena">-</span></li>
                 </ul>
-            </div>
-        </div>
-    </div>
+            </section>
+        </article>
+    </main>
 
     <script src="../js/perfil.js"></script>
 </body>

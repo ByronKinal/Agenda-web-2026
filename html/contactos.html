@@ -7,46 +7,46 @@
     <link rel="stylesheet" href="../style/contactos.css">
 </head>
 <body>
-    <div class="header">
+    <header class="header">
         <h1>Lista de Contactos</h1>
-        <div class="header-actions">
+        <nav class="header-actions">
             <button class="btn-perfil" onclick="window.location.href='favoritos.html'">Favoritos</button>
             <button class="btn-perfil" onclick="window.location.href='todo-list.html'">Tareas</button>
             <button class="btn-perfil" onclick="window.location.href='perfil.html'">Ver perfil</button>
-        </div>
-    </div>
+        </nav>
+    </header>
 
-    <div class="container">
+    <main class="container">
         <button class="btn-agregar" onclick="window.location.href='agregar-contacto.html'">Agregar Contacto</button>
         
-        <div class="contactos-lista">
-            <div class="contacto-item" onclick="verContacto(1)">
+        <section class="contactos-lista">
+            <article class="contacto-item" onclick="verContacto(1)">
                 <h3>Juan Pérez</h3>
                 <p>juan.perez@email.com</p>
                 <p>555-0101</p>
-            </div>
-            <div class="contacto-item" onclick="verContacto(2)">
+            </article>
+            <article class="contacto-item" onclick="verContacto(2)">
                 <h3>María García</h3>
                 <p>maria.garcia@email.com</p>
                 <p>555-0102</p>
-            </div>
-            <div class="contacto-item" onclick="verContacto(3)">
+            </article>
+            <article class="contacto-item" onclick="verContacto(3)">
                 <h3>Carlos Rodríguez</h3>
                 <p>carlos.rodriguez@email.com</p>
                 <p>555-0103</p>
-            </div>
-            <div class="contacto-item" onclick="verContacto(4)">
+            </article>
+            <article class="contacto-item" onclick="verContacto(4)">
                 <h3>Ana López</h3>
                 <p>ana.lopez@email.com</p>
                 <p>555-0104</p>
-            </div>
-            <div class="contacto-item" onclick="verContacto(5)">
+            </article>
+            <article class="contacto-item" onclick="verContacto(5)">
                 <h3>Pedro Martínez</h3>
                 <p>pedro.martinez@email.com</p>
                 <p>555-0105</p>
-            </div>
-        </div>
-    </div>
+            </article>
+        </section>
+    </main>
 
     <script src="../js/contactos.js"></script>
 </body>
