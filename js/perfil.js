@@ -14,11 +14,8 @@ const setText = (id, value) => {
 if (perfilUsuario) {
     setText('perfilNombre', perfilUsuario.nombreCompleto || perfilUsuario.usuario);
     setText('perfilCorreo', perfilUsuario.correo);
-    setText('perfilUsuario', perfilUsuario.usuario);
-    setText('perfilTelefono', perfilUsuario.telefono);
+    setText('perfilUsuario', perfilUsuario.usuario || localStorage.getItem('usuario'));
     setText('perfilCiudad', perfilUsuario.ciudad);
     const contrasena = perfilUsuario.contrasena || localStorage.getItem('contrasena');
-    setText('perfilContrasena', contrasena);
-    setText('cuentaPlan', perfilUsuario.plan);
     setText('cuentaContrasena', contrasena);
 }
